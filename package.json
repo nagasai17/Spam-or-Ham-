@@ -1,0 +1,21 @@
+{
+  "name": "naive-bayes-spam-detector",
+  "version": "1.0.0",
+  "description": "A progressive web app (PWA) that detects spam messages using the Naive Bayes algorithm.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Iliya Mohamad Lokman",
+  "license": "MIT",
+  "dependencies": {
+    "bayes": "0.0.7",
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "helmet": "^3.9.0",
+    "heroku-ssl-redirect": "0.0.4",
+    "stopword": "^0.1.9"
+  }
+}
